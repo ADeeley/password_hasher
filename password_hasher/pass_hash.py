@@ -1,5 +1,12 @@
 import bcrypt
 
+#------------------
+# To do:
+# Add a checking system to hash_pwd to check if the password has already been 
+# hashed- use check_pwd function
+
+#------------------
+
 def hash_pwd():
     '''Hash a password for the first time, with a randomly-generated salt'''
     
